@@ -2,7 +2,7 @@
 
 Candidates will need setup their own Python coding environment on their computer.
 
-Setup Instructions:
+### Setup Instructions:
 1.	Have VSCode or your preferred IDE installed.
 2.	Setup your coding environment with Python 3.x and Pandas.
 3.	Have a copy of the provided patients_nlp.json in your coding project folder.
