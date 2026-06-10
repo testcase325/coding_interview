@@ -8,7 +8,8 @@ Setup Instructions:
 4.	Test your environment with the provided starter code before the interview
    
 ### Python Starter Code:
-> import pandas as pd
-> df = pd.read_json('patients_nlp.json', lines = True)
-> print(df.head())
-
+'''
+import pandas as pd
+df = pd.read_json('patients_nlp.json', lines = True)
+print(df.head())
+'''
