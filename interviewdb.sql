@@ -1,6 +1,4 @@
---https://www.sqliteonline.com
---Paste and Run this SQL Script into sqliteonline
---Optional drop the demo table from sqliteonline
+
 
 CREATE TABLE IF NOT EXISTS ORDER_RESULT (
     `PATIENTID` VARCHAR(13),
