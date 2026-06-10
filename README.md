@@ -1,6 +1,7 @@
 # Python Live Coding Interview
 
 Candidates will need setup their own Python coding environment on their computer.
+
 Setup Instructions:
 1.	Have VSCode or your preferred IDE installed.
 2.	Setup your coding environment with Python 3.x and Pandas.
