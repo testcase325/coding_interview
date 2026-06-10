@@ -1,4 +1,4 @@
-###Python Live Coding Interview
+# Python Live Coding Interview
 
 Candidates will need setup their own Python coding environment on their computer.
 Setup Instructions:
