@@ -1,4 +1,6 @@
 --https://www.sqliteonline.com
+--Paste and Run this SQL Script into sqliteonline
+--Optional drop the demo table from sqliteonline
 
 CREATE TABLE IF NOT EXISTS ORDER_RESULT (
     `PATIENTID` VARCHAR(13),
@@ -504,6 +506,33 @@ INSERT INTO BIOMARKER VALUES (71483,8006,'Caris',NULL,'2016-03-13 00:00:00',NULL
 	(71562,8006,'Caris',NULL,'2016-09-05 00:00:00',NULL,'Caris MI Profile',NULL,'2023-03-30 09:05:00.000'),
 	(71563,8006,'Caris',NULL,'2016-09-11 00:00:00',NULL,'Caris MI Profile',NULL,'2023-03-30 09:05:00.0005:00.000'),
 	(71563,8006,'Caris',NULL,'2016-09-11 00:00:00',NULL,'Caris MI Profile',NULL,'2023-03-30 09:05:00.000');
+
+
+CREATE TABLE IF NOT EXISTS PATIENT_ENCOUNTERS (
+    `ENCOUNTER_ID` VARCHAR(15),
+    `PATIENTID` VARCHAR(13),
+    `CONTACT_DATE` DATETIME,
+    `ENCOUNTER_TYPE` VARCHAR(30),
+    `DEPARTMENT` VARCHAR(50),
+    `ADMIT_SOURCE` VARCHAR(30),
+    `DISCHARGE_DISPOSITION` VARCHAR(40),
+    `ATTENDING_PROVIDER` VARCHAR(50),
+    `FACILITY` VARCHAR(40)
+);
+
+INSERT INTO PATIENT_ENCOUNTERS VALUES
+	('ENC26074417258','CBC1301104124','2020-10-20 00:00:00','Inpatient','Hematology/Oncology','ED','Home','Dr. Alvarez','Providence North'),
+	('ENC26074417286','CBC1301104124','2020-10-25 08:25:00','Inpatient','Hematology/Oncology','Transfer','Home','Dr. Alvarez','Providence North'),
+	('ENC26074481647','CBC1301104124','2020-10-30 02:35:00','Inpatient','Hematology/Oncology','ED','Home','Dr. Patel','Providence North'),
+	('ENC26074481678','CBC1301104124','2020-11-04 09:35:00','Outpatient','Infusion Center','Clinic','Home','Dr. Patel','Providence North'),
+	('ENC26074481689','CBC1301104124','2020-11-05 12:15:00','Outpatient','Infusion Center','Clinic','Home','Dr. Patel','Providence North'),
+	('ENC26074565865','CBC1301104124','2020-11-14 14:30:00','Inpatient','Hematology/Oncology','ED','SNF','Dr. Sharma','Providence North'),
+	('ENC26074565900','CBC1301104124','2020-11-19 19:20:00','Inpatient','Hematology/Oncology','Transfer','Home','Dr. Sharma','Providence North'),
+	('ENC300401164409','CBC150566264','2017-06-10 08:07:00','Inpatient','Oncology','ED','Home','Dr. Nguyen','Providence South'),
+	('ENC300403334490','CBC150566264','2017-06-11 08:37:00','Observation','Oncology','ED','Home','Dr. Nguyen','Providence South'),
+	('ENC300403432528','CBC150566264','2017-06-12 09:01:00','Inpatient','Oncology','Transfer','Home Health','Dr. Nguyen','Providence South'),
+	('ENC300403915205','CBC150566264','2017-06-14 06:45:00','Inpatient','Oncology','Clinic','Home','Dr. Chen','Providence South'),
+	('ENC300404689548','CBC150566264','2017-06-22 09:13:00','Outpatient','Infusion Center','Clinic','Home','Dr. Chen','Providence South');
 
     
     
