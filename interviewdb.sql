@@ -1,6 +1,5 @@
 --https://www.sqliteonline.com
 
-
 CREATE TABLE IF NOT EXISTS ORDER_RESULT (
     `PATIENTID` VARCHAR(13),
     `ORDER_ID` VARCHAR(15),
