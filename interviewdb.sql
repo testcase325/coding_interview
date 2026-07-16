@@ -532,9 +532,9 @@ INSERT INTO PATIENT_ENCOUNTERS VALUES
 	('ENC300403334490','CBC150566264','2017-06-11 08:37:00','Observation','Oncology','ED','Home','Dr. Nguyen','Providence South'),
 	('ENC300403432528','CBC150566264','2017-06-12 09:01:00','Inpatient','Oncology','Transfer','Home Health','Dr. Nguyen','Providence South'),
 	('ENC300403915205','CBC150566264','2017-06-14 06:45:00','Inpatient','Oncology','Clinic','Home','Dr. Chen','Providence South'),
-	('ENC300404689548','CBC150566264','2017-06-22 09:13:00','Outpatient','Infusion Center','ED','Home','Dr. Chen','Providence South')
-    ('ENC300404687692','CBC150566264','2017-06-22 11:43:00','Outpatient','Infusion Center','ED','Home','Dr. Chen','Providence South')
-    ('ENC300404680912','CBC150566264','2017-06-22 13:17:00','Outpatient','Infusion Center','ED','Home','Dr. Chen','Providence South')
+	('ENC300404689548','CBC150566264','2017-06-22 09:13:00','Outpatient','Infusion Center','ED','Home','Dr. Chen','Providence South'),
+    ('ENC300404687692','CBC150566264','2017-06-22 11:43:00','Outpatient','Infusion Center','ED','Home','Dr. Chen','Providence South'),
+    ('ENC300404680912','CBC150566264','2017-06-22 13:17:00','Outpatient','Infusion Center','ED','Home','Dr. Chen','Providence South'),
     ('ENC300404687642','CBC150566264','2017-06-22 17:18:00','Inpatient','Infusion Center','ED','Home','Dr. Chen','Providence South');
 
     
